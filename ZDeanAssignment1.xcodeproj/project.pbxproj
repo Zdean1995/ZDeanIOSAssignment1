@@ -17,6 +17,7 @@
 		B6BD44982A120CFA0060D103 /* ZDeanAssignment1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BD44972A120CFA0060D103 /* ZDeanAssignment1Tests.swift */; };
 		B6BD44A22A120CFA0060D103 /* ZDeanAssignment1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BD44A12A120CFA0060D103 /* ZDeanAssignment1UITests.swift */; };
 		B6BD44A42A120CFA0060D103 /* ZDeanAssignment1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BD44A32A120CFA0060D103 /* ZDeanAssignment1UITestsLaunchTests.swift */; };
+		B6BD44F02A12494D0060D103 /* apiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BD44EF2A12494D0060D103 /* apiHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B6BD449D2A120CFA0060D103 /* ZDeanAssignment1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZDeanAssignment1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6BD44A12A120CFA0060D103 /* ZDeanAssignment1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZDeanAssignment1UITests.swift; sourceTree = "<group>"; };
 		B6BD44A32A120CFA0060D103 /* ZDeanAssignment1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZDeanAssignment1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B6BD44EF2A12494D0060D103 /* apiHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				B6BD448B2A120CFA0060D103 /* LaunchScreen.storyboard */,
 				B6BD448E2A120CFA0060D103 /* Info.plist */,
 				B6BD44862A120CF80060D103 /* ZDeanAssignment1.xcdatamodeld */,
+				B6BD44EF2A12494D0060D103 /* apiHelper.swift */,
 			);
 			path = ZDeanAssignment1;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			files = (
 				B6BD44822A120CF80060D103 /* ViewController.swift in Sources */,
 				B6BD44882A120CF80060D103 /* ZDeanAssignment1.xcdatamodeld in Sources */,
+				B6BD44F02A12494D0060D103 /* apiHelper.swift in Sources */,
 				B6BD447E2A120CF80060D103 /* AppDelegate.swift in Sources */,
 				B6BD44802A120CF80060D103 /* SceneDelegate.swift in Sources */,
 			);

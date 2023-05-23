@@ -16,27 +16,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i3r-MH-jYW">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i3r-MH-jYW">
                                 <rect key="frame" x="80" y="409" width="233" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Print Yu-Gi-Oh! Information"/>
                                 <connections>
                                     <action selector="btnYgo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0mi-Ze-gNg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KwR-Xz-Eml">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KwR-Xz-Eml">
                                 <rect key="frame" x="42" y="286" width="310" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Print Magic the Gathering Information"/>
                                 <connections>
                                     <action selector="btnMTG:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DjP-lh-NRa"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ncb-3g-ph5">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ncb-3g-ph5">
                                 <rect key="frame" x="77" y="543" width="240" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Print Runescape Information"/>
                                 <connections>
@@ -46,6 +43,18 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="i3r-MH-jYW" firstAttribute="centerX" secondItem="ncb-3g-ph5" secondAttribute="centerX" id="LyB-nj-6Ul"/>
+                            <constraint firstItem="i3r-MH-jYW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="RFA-o6-ibI"/>
+                            <constraint firstItem="ncb-3g-ph5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="77" id="aQ9-4S-NX9"/>
+                            <constraint firstItem="KwR-Xz-Eml" firstAttribute="centerX" secondItem="i3r-MH-jYW" secondAttribute="centerX" id="c41-OB-P36"/>
+                            <constraint firstItem="KwR-Xz-Eml" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="227" id="dRm-2j-0GG"/>
+                            <constraint firstItem="i3r-MH-jYW" firstAttribute="top" secondItem="KwR-Xz-Eml" secondAttribute="bottom" constant="88" id="ii9-FR-8QF"/>
+                            <constraint firstItem="ncb-3g-ph5" firstAttribute="top" secondItem="i3r-MH-jYW" secondAttribute="bottom" constant="99" id="rG7-R4-t6n"/>
+                            <constraint firstItem="KwR-Xz-Eml" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sDG-Oo-SIu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ncb-3g-ph5" secondAttribute="bottom" constant="240" id="t8b-Os-E61"/>
+                            <constraint firstItem="KwR-Xz-Eml" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="42" id="wUo-Pb-zGj"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
